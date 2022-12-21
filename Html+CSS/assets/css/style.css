@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+.headerInfo{
+    width: 100%;
+    height: 34px;
+    background-color: #BD95B7;
+    position: relative;
+}
+.rrssIcons1{
+    margin: 5px;
+    width: 24px;
+    position: absolute;
+    left: 100px;
+}
+.rrssIcons2{
+    margin: 5px;
+    width: 24px;
+    position: absolute;
+    left: 150px;
+}
+.recordatorio{
+    font-size: 14px;
+    padding: 8px;
+    font-family: Roboto-Regular;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.navbar{
+    width: 100%;
+    height: 155px;
+    background-color: #E0B2DA;
+    font-family: Roboto-Regular;
+}
+.busquedaYcarrito{
+    height: 96px;
+    border: solid;
+    border-width: 1px;
+    border-color: aliceblue;
+    position: relative;
+}
+.logoMagus{
+    width: 96px;
+    position: absolute;
+    top: 18%;
+    left: 15%;
+}
+.logosNavbar1{
+    width: 54px;
+    height: 54px;
+    padding: 5px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 80%;    
+}
+.logosNavbar2{
+    width: 54px;
+    height: 54px;
+    padding: 5px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 90%;    
+}
+.logosNavbar3{
+    width: 54px;
+    height: 54px;
+    padding: 5px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 85%;    
+}
+.inputSearchLogo{
+    width: 28px;
+}
+.inputSearch{
+    font-size: 14px;
+    color: #E0B2DA;
+    padding: 8px;
+    font-family: Roboto-Regular;
+    width: 600px;
+    height: 48px;
+    padding: 15px;
+    border-radius: 15px;     
+    border-color: aliceblue;
+    margin-left: 100px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 44%;   
+}
+.inputSearchButton{
+    width: 36px;
+    border: none;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 70%;
+    overflow: hidden;
+}
+.navbarList > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+}
+.navbarList > ul > li{
+    position: relative;
+}
+.navbarList > ul > li:hover ul{
+    max-height: 300px;
+    transition: 0.6s;
+}
+.navbarList ul li a{
+    display: block;
+    text-decoration: none;
+    color: #4A4848;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;    
+}
+.navbarList > ul > li > ul {
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    list-style-type: none;
+    background-color:#E0B2DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+main{
+    margin-top: 0;
+}
+.portada{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/portada2.png);
+    background-size: cover;
+    position: relative;
+    object-fit: cover;
+}
+.explorarBtn{
+    display: block;
+    width: 120px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    padding: 8px 10px;
+    font-size: 18px;
+    font-family: Roboto-Regular;
+    background-color: #4A4848;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    bottom: 10px;
+    right: 85px;
+    position: absolute;
+}
+.navbarItem > ul{
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto-Regular;
+    list-style-type: none;
+}
+.navbarItem ul li a{
+    text-decoration: none;
+    color: #4A4848;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{  
+    column-gap: 10px;
+    margin: 10px;
+    font-family: Roboto-Regular;
+    color: #4A4848;
+    text-align: center;
+}
+.addCart{
+    display: block;
+    width: 90px;
+    margin-top: 10px;
+    margin-left: 108px;
+    padding: 5px 10px;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4A4848;
+    color: white;
+}
+.magusbylili{
+    position: relative;
+    height: 700px;
+}
+.acercaDeMi{
+    display: block;
+    margin-top: 40px;
+    position: relative;
+}
+.nuestraMarca{
+    display: block;
+    justify-content: center;
+    color: #4A4848;
+    font-family: Roboto-Regular;  
+    padding: 80px; 
+    font-size: 18px;
+    margin-top: 25px;
+}
+.acercaDeMi-info{
+    color: #4A4848;
+    font-family: Roboto-Regular;  
+    padding: 80px; 
+    font-size: 18px;
+    position: absolute;
+    bottom: 50px;
+    left: 550px;
+}
+.acercaDeMi-info2{
+    color: #4A4848;
+    font-family: Roboto-Regular;  
+    padding: 80px; 
+    font-size: 18px;
+    position: absolute;
+    bottom: 50px;
+    left: 550px;
+}
+.textoAcercaDeMi{
+   padding: 15px; 
+   text-align: justify;
+   line-height: 1.6;
+   margin-top: 15px;
+}
+.textoAcercaDeMi{
+    padding: px; 
+    text-align: justify;
+    line-height: 1.6;
+}
+.creadora{
+    padding: 80px;
+}
+.footer{
+    width: 100%;
+    background-color: aliceblue;
+    padding: 20px;
+    font-family: Roboto-Regular;
+    position: relative;
+}
+.footer2{
+    width: 100%;
+    background-color: aliceblue;
+    padding: 20px;
+    font-family: Roboto-Regular;
+    position:relative;
+    margin-top: 600px;
+}
+.logoWhatsappFooter{
+    width: 16px;
+}
+.rrssIcons-footer{
+    width: 48px;
+    padding: 5px;
+}
+.tabla-footer{
+    border: none;
+}
+.row1{
+    border: none;
+    padding: 15px;
+}
+.row2{
+    border: none;
+    padding: 25px;
+}
+.row2 > ul{
+    list-style-type: none;     
+}
+.row2  ul a{
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 1.8;
+    color: #4A4848;
+    font-family: Roboto-Regular;
+}
+.footer-legal{
+    margin-top: 150px;
+    margin-right: 5px;
+    padding: 5px;
+    position: absolute;
+    top: 30px;
+    right: 5px
+}
+.formulario{
+    width: 100%;
+    padding: 40px;
+    height: 200px;
+    color: #4A4848;
+    font-family: Roboto-Regular;
+    position: relative;
+    font-size: 12px;
+    border-color: #4A4848;
+}
+.form-group{
+    padding: 25px;
+    position: absolute;
+    right: 180px;
+}
+.form-group2{
+    padding: 25px;
+    position: absolute;
+    top: 150px;
+    right: 180px;
+}
+.form-group3{
+    padding: 25px;
+    position: absolute;
+    top: 250px;
+    right: 180px;
+}
+.form-group4{
+    padding: 25px;
+    position: absolute;
+    top: 350px;
+    right: 180px;
+}
+.form-input{
+    width: 600px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: #4A4848;
+    margin-top: 10px;
+    border: solid;
+    background-color: aliceblue;
+}
+.form-textarea{
+    width: 600px;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: #4A4848;
+    margin-top: 10px;
+    border: solid;
+    background-color: aliceblue;  
+}
+.form-button{
+    width: 600px;
+    height: 45px;
+    border-radius: 25px;
+    padding: 5px;
+    position: absolute;
+    right: 205px;
+    top: 575px;
+    background-color: #E0B2DA;
+    font-weight: bold;
+    font-size: 16px;
+}
+.textContacto{
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    left: 100px;
+}
+.logoWhatsappContacto{
+    width: 56px;
+    position: absolute;
+    left: 120px;
+    top: 100px;
+}
+.numeroTelefono{
+    text-decoration: none;
+    position: absolute;
+    left: 195px;
+    top: 120px;
+    color: #4A4848;
+    font-size: 20px;
+}
+.cardsProductos{
+    width: 100%;
+    position: relative;
+    height: 700px;
+    font-family: Roboto-Regular;
+    margin-top: 70px;
+}
+.addCartProducto{
+    display: block;
+    width: 90px;
+    margin-top: 10px;
+    margin-left: 110px;
+    padding: 5px 10px;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4A4848;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.cardProducto{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 100px;
+}
+.cardProducto2{
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 100px;
+}
+.cardProducto3{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+.cardProducto4{
+    position: absolute;
+    margin-left: 1035px;
+    margin-top: 100px;
+}
+.cardProducto5{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 700px;
+}
+.cardProducto6{
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 700px;
+}
+.cardProducto7{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 700px;
+}
+.cardProducto8{
+    position: absolute;
+    margin-left: 1035px;
+    margin-top: 700px;
+}
+.card-infoProducto{
+    text-align: center;
+}
+.menuSelector{
+    position: absolute;
+    margin-left: 35px;
+}
+.menuSelector1{
+    font-family: Roboto-Regular;
+    color: #4A4848;
+    font-size: 14px;
+}
+.filtroProducto{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 10px;
+    font-family: Roboto-Regular;
+    color: #4A4848;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.filtrarPor{
+    position: absolute;
+    margin-left: 1020px;
+    margin-top: 20px;
+    font-family: Roboto-Regular;
+    color: #4A4848;
+}
+.coleccionescards{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-top: 70px;
+    font-family: Roboto-Regular;
+    color: #4A4848;
+}
+.videoColeccion{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 130px;
+    border: solid;
+    border-radius: 15px;
+
+}
+.videoColeccion1{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 700px;
+    border: solid;
+    border-radius: 15px;  
+}
+.coleccion{
+    position: absolute;
+    margin-top: 510px;
+    margin-left: 130px;
+}
+.coleccion1{
+    position: absolute;
+    margin-top: 510px;
+    margin-left: 700px;
+}
+.coleccion > a{
+    text-decoration: none;
+    color: #4A4848;
+}
+.coleccion1 > a{
+    text-decoration: none;
+    color: #4A4848;
+}
+.menuSelector > a{
+    text-decoration: none;
+}
