@@ -7,6 +7,6 @@
     font-family: roboto-regular;
     src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
-.navbar{
-
+nav{
+    font-family: roboto-regular;  
 }
