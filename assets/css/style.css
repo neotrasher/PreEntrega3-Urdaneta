@@ -107,3 +107,9 @@ nav{
     color: #4A4848;
     padding-left: 10px;
 }
+.breadcrumb{
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #4A4848;
+    text-decoration: none;
+}
