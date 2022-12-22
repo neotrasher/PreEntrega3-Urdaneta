@@ -8,27 +8,28 @@
         <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="shortcut icon" href="./assets/img/maguslogo.png" type="image/x-icon">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
         <header class="headerInfo">
-            <nav class="navbar align-items-center" style="background-color: #BD95B7;">
-                <div class="container-fluid d-flex flex-wrap">
-                    <a class="navbar-brand p-0  mb-lg-0 ms-lg-auto" href="https://www.instagram.com/magusbylili/" target="_blank">
-                    <img src="./assets/img/instagram.png" alt="instagram" width="24" height="24">
+            <nav class="navbar p-0" style="background-color: #BD95B7;">
+                <div class="container-fluid d-flex justify-content-evenly">
+                    <a class="navbar-brand" href="https://www.instagram.com/magusbylili/" target="_blank">
+                    <img class="logosNavbar1" src="./assets/img/instagram.png" alt="instagram" width="24" height="24">
                     </a>
-                    <a class="navbar-brand col-1 col-xxl-3 p-0 me-auto me-xxl-auto" href="https://www.facebook.com/magusbylili" target="_blank">
+                    <a class="navbar-brand" href="https://www.facebook.com/magusbylili" target="_blank">
                     <img src="./assets/img/facebook.png" alt="instagram" width="24" height="24">
                     </a>
-                    <span class="headerInfo col-8 col-lg-8 col-xxl-7 me-auto mb-lg-0 ms-lg-auto d-none d-sm-none d-md-block" style="font-size: small;">Productos hechos a mano, no olvides consultar los tiempos de envío.</span>
-                    <a href="https://wa.me/573154299368" target="_blank"><img class="logosNavbar1 mb-lg-0 ms-lg-auto" src="./assets/img/whatsapp.png" alt="whatsapp" width="24" height="24"></a>
-                    <img class="logosNavbar2 mb-lg-0 ms-lg-auto" src="./assets/img/cuenta.png" alt="usuario" width="24" height="24">
-                    <img class="logosNavbar3 mb-lg-0 ms-lg-auto" src="./assets/img/cart.png" alt="carrito" width="24" height="24">
+                    <span class="headerInfo col-6 d-none d-sm-none d-md-block text-center" style="font-size: small;">Productos hechos a mano, no olvides consultar los tiempos de envío.</span>
+                    <a href="https://wa.me/573154299368" target="_blank"><img class="logosNavbar1 me-3" src="./assets/img/whatsapp.png" alt="whatsapp" width="24" height="24"></a>
+                    <img class="logosNavbar2 me-3" src="./assets/img/cuenta.png" alt="usuario" width="24" height="24">
+                    <img class="logosNavbar3 me-3" src="./assets/img/cart.png" alt="carrito" width="24" height="24">
                 </div>
-              </nav>                    
+            </nav>                    
         </header>
         <nav class="navbar navbar-expand-lg fw-bold" style="background-color: #E0B2DA;">
             <div class="container-fluid">
-                <a href="./index.html"><img src="./assets/img/maguslogo.png"alt="maguslogo" width="100"></a>
+                <a class="ms-lg-5" href="./index.html"><img src="./assets/img/maguslogo.png"alt="maguslogo" width="100"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -55,7 +56,7 @@
                         <a class="nav-link" href="#">Contacto</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
+                <form class="d-flex me-5" role="search">
                   <input class="form-control me-2" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
                   <button class="btn btn-outline-dark" type="submit">Buscar</button>
                 </form>
@@ -71,15 +72,15 @@
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                       <button type="button" class="btn btn-dark position-absolute top-50 start-100 translate-middle">Explorar</button>
                     </div>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner" data-aos="zoom-in" data-aos-duration="2000">
                       <div class="carousel-item active">
-                        <img src="./assets/img/portada.png" class="d-block w-100" alt="portada">
+                        <img src="./assets/img/portada3.png" class="d-block w-100" alt="portada">
                       </div>
                       <div class="carousel-item">
                         <img src="./assets/img/portada2.png" class="d-block w-100" alt="portada2">
                       </div>
                       <div class="carousel-item">
-                        <img src="./assets/img/portada3.png" class="d-block w-100" alt="portada3">
+                        <img src="./assets/img/portada1.png" class="d-block w-100" alt="portada3">
                       </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -103,7 +104,7 @@
                 </div>
             </section>
             <section class="cards">
-                <div class="card m-3 align-items-center" style="width: 18rem;">
+                <div class="card m-3 align-items-center" data-aos="fade-right"  data-aos-duration="1500" style="width: 18rem;">
                     <img src="./assets/img/arete1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title text-center fw-bold">Aretes #1</h5>
@@ -111,7 +112,7 @@
                       <a href="#" class="btn btn-dark text-center">Agregar al carrito</a>
                     </div>
                 </div>
-                <div class="card m-3 align-items-center" style="width: 18rem;">
+                <div class="card m-3 align-items-center" data-aos="fade-right" data-aos-duration="2000" style="width: 18rem;">
                     <img src="./assets/img/arete2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title text-center fw-bold">Aretes #2</h5>
@@ -119,7 +120,7 @@
                       <a href="#" class="btn btn-dark text-center">Agregar al carrito</a>
                     </div>
                 </div>
-                <div class="card m-3 align-items-center" style="width: 18rem;">
+                <div class="card m-3 align-items-center" data-aos="fade-left" data-aos-duration="2000" style="width: 18rem;">
                     <img src="./assets/img/arete3.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title text-center fw-bold">Aretes #3</h5>
@@ -127,7 +128,7 @@
                       <a href="#" class="btn btn-dark text-center">Agregar al carrito</a>
                     </div>
                 </div>
-                <div class="card m-3 align-items-center" style="width: 18rem;">
+                <div class="card m-3 align-items-center" data-aos="fade-left" data-aos-duration="2000" style="width: 18rem;">
                     <img src="./assets/img/arete4.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title text-center fw-bold">Aretes #4</h5>
@@ -136,11 +137,31 @@
                     </div>
                 </div>
             </section>
+            <section>
+              <div class="acercaDeMi">
+                <img class="creadora rounded w-50 mx-auto d-lock shadow-lg p-2 mb-5 bg-body rounded" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="1000" src="./assets/img/magusbylili.png" alt="">
+                <div class="acercaDeMi-info">
+                    <h1>Acerca de mi</h1>
+                    <p class="textoAcercaDeMi">Hola! Soy Liliana, la creadora detrás de Magus🥰. Hoy quiero primero que todo, darte las gracias 🤗❤️por tu apoyo, y por estar en esta pequeña pero linda comunidad. Y es por esto que deseo compartir contigo algunas cosas de mí, que quizás no sabes: Aquí Vamos! ⬇️
+                        😱Soy fanática de las películas de terror, y las series criminalísticas. Pero me toca verlas sola, porque mi esposo no las disfruta tanto como yo😜.                        
+                        👩‍👦‍👦Soy mamá de dos hermosos varones, de 5 y 3 años, que ponen mi mundo de cabezas🙃, pero a los que amo ❤️con todo mi ser.                        
+                        ☺️Soy un poco tímida por lo que, muero de susto si tengo que hablar por el teléfono con personas extrañas😜.                         
+                        👩🏻‍🔧Soy Ingeniera Mecánica de profesión, y trabajé durante ocho años en una empresa de Mantenimiento Aeronáutico✈️.                         
+                        🇻🇪Soy Venezolana, y vivo desde hace dos años en Sabaneta, Colombia🇨🇴. Una pequeña ciudad en las afueras de Medellín, que nos ha brindado la oportunidad a mi familia y a mí, de seguir luchando por nuestros sueños🤗.                        
+                        Y sí, aunque soy ingeniera y de adolescente, quería estudiar astronomía😜, un día conocí el arte de tejer accesorios y quedé adicta a esta bella labor🤩. ¿Quien dijo que el arte y la ciencia, no pueden convivir?                        
+                        🤗Siempre me ha gustado enseñar, por eso lo poco que he aprendido de este mundo de la Bisuteria, lo he querido ir compartiendo con ustedes, porque también creo que esto no me quitara mi potencial.</p>
+                </div>
+            </div>
+            </section>
 
         </main>
         <footer >
 
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>

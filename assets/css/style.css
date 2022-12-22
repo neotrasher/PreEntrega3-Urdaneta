@@ -40,3 +40,17 @@ nav{
     padding: 20px;
     font-weight:lighter;
 }
+.acercaDeMi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 60px;
+}
+.acercaDeMi-info{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    font-family: Roboto-Regular;
+    text-align: justify;
+}
