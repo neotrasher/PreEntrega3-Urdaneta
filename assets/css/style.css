@@ -75,6 +75,7 @@ nav{
     background-color: aliceblue;
     font-family: Roboto-Regular;
     padding: 50px;
+
 }
 .footer-legal{
     display: flex;
@@ -94,12 +95,15 @@ nav{
     text-decoration: none;
     list-style-type: none;
     color: #4A4848;
+
 }
 .footer-menu > ul > li {
     list-style-type: none;
+    font-size: 14px;
 }
 .footer-menu > ul{
     padding-left: 5px;
+
 }
 .footer-contacto > a{
     text-decoration: none;
@@ -108,12 +112,19 @@ nav{
     padding-left: 10px;
 }
 .breadcrumb{
-    margin-top: 50px;
-    margin-left: 20px;
     color: #4A4848;
     text-decoration: none;
 }
 .pagination{
     font-family: Roboto-Regular;
-
+}
+.navFiltro{
+    font-family: Roboto-Regular;    
+}
+.filtroProducto{
+    font-family: Roboto-Regular;
+    color: #4A4848;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
 }
