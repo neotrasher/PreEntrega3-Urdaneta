@@ -10,3 +10,33 @@
 nav{
     font-family: roboto-regular;  
 }
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+.navbarItem li{
+    border-radius: 5px;
+    
+}
+.navbarItem > ul{
+    height: 100px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Roboto-Regular;
+    list-style-type: none;
+
+}
+.navbarItem ul li a{
+    text-decoration:underline;
+    color:#4A4848;
+    font-size: 19px;
+    padding: 20px;
+    font-weight:lighter;
+}
