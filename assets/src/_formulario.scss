@@ -1,0 +1,68 @@
+.formulario{
+    color: #4A4848;
+    font-family: Roboto-Regular;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    border-color: #4A4848;
+}
+.form-group{
+    padding: 25px;
+}
+.form-group2{
+    padding: 25px;
+}
+.form-group3{
+    padding: 25px;
+}
+.form-group4{
+    padding: 25px;
+}
+.form-input{
+    width: 360px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: #4A4848;
+    border: solid;
+    background-color: aliceblue;
+}
+.form-textarea{
+    width: 360px;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: #4A4848;
+    border: solid;
+    background-color: aliceblue;  
+}
+.form-buttongroup{
+    padding: 25px;
+}
+.form-button{
+    width: 360px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #E0B2DA;
+    font-weight: bold;
+    font-size: 16px;   
+}
+.textContacto{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.logoWhatsappContacto{
+    width: 56px;
+}
+.numeroTelefono{
+    text-decoration: none;
+    color: #4A4848;
+    font-size: 20px;;
+}
+.contacto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 165px;
+}

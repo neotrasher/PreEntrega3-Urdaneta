@@ -1,0 +1,30 @@
+.acercaDeMi{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-left: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.acercaDeMi > img{
+    height: 425px;
+    padding: 30px;
+    margin-top: 5px;
+}
+.acercaDeMi-info{
+    color: #4A4848;
+    font-family: Roboto-Regular;  
+    padding: 30px; 
+    font-size: 14px;
+    text-align: justify;
+    width: 950px; 
+    margin-top: 40px; 
+}
+.accordion{
+    font-family: Roboto-Regular;
+    margin-top: 40px;
+}
+.accordion-body{
+    background-color:aliceblue;
+    text-align: justify;
+}

@@ -1,209 +1,241 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 @font-face {
-    font-family: roboto-regular;
-    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  font-family: roboto-regular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
-nav{
-    font-family: roboto-regular;  
+nav {
+  font-family: roboto-regular;
 }
-.cards{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 5px;
-}
-.navbarItem li{
-    border-radius: 5px;
-    
-}
-.navbarItem > ul{
-    height: 100px;
-    padding: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    font-family: Roboto-Regular;
-    list-style-type: none;
 
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
 }
-.navbarItem ul li a{
-    text-decoration:underline;
-    color:#4A4848;
-    font-size: 19px;
-    padding: 20px;
-    font-weight:lighter;
-}
-.acercaDeMi{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    margin-left: 0px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.acercaDeMi > img{
-    height: 425px;
-    padding: 30px;
-    margin-top: 5px;
 
+.navbarItem li {
+  border-radius: 5px;
 }
-.acercaDeMi-info{
-    color: #4A4848;
-    font-family: Roboto-Regular;  
-    padding: 30px; 
-    font-size: 14px;
-    text-align: justify;
-    width: 950px; 
-    margin-top: 40px; 
-}
-.accordion{
-    font-family: Roboto-Regular;
-    margin-top: 40px;
-}
-.accordion-body{
-    background-color:aliceblue;
-    text-align: justify;
-}
-.footer-datos{
-    background-color: aliceblue;
-    font-family: Roboto-Regular;
-    padding: 50px;
 
+.navbarItem > ul {
+  height: 100px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Roboto-Regular;
+  list-style-type: none;
 }
-.footer-legal{
-    display: flex;
-    flex-direction: column;
-    background-color:#BD95B7;
-    font-family: Roboto-Regular;
-    text-align: end;
-    padding: 5px;
-}
-.footer-legal h5{
-    font-size: 13px;
-}
-.footer-legal h6{
-    font-size: 10px;
-}
-.footer-menu > ul > li > a{
-    text-decoration: none;
-    list-style-type: none;
-    color: #4A4848;
 
+.navbarItem > ul > li > a {
+  text-decoration: underline;
+  color: #4A4848;
+  font-size: 19px;
+  padding: 20px;
+  font-weight: lighter;
 }
+
+.footer-datos {
+  background-color: aliceblue;
+  font-family: Roboto-Regular;
+  padding: 50px;
+}
+
+.footer-legal {
+  display: flex;
+  flex-direction: column;
+  background-color: #BD95B7;
+  font-family: Roboto-Regular;
+  text-align: end;
+  padding: 5px;
+}
+
+.footer-legal h5 {
+  font-size: 13px;
+}
+
+.footer-legal h6 {
+  font-size: 10px;
+}
+
+.footer-menu > ul > li > a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #4A4848;
+}
+
 .footer-menu > ul > li {
-    list-style-type: none;
-    font-size: 14px;
+  list-style-type: none;
+  font-size: 14px;
 }
-.footer-menu > ul{
-    padding-left: 5px;
 
+.footer-menu > ul {
+  padding-left: 5px;
 }
-.footer-contacto > a{
-    text-decoration: none;
-    list-style-type: none;
-    color: #4A4848;
-    padding-left: 10px;
+
+.footer-contacto > a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #4A4848;
+  padding-left: 10px;
 }
-.breadcrumb{
-    color: #4A4848;
-    text-decoration: none;
+
+.acercaDeMi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
-.pagination{
-    font-family: Roboto-Regular;
+
+.acercaDeMi > img {
+  height: 425px;
+  padding: 30px;
+  margin-top: 5px;
 }
-.navFiltro a{
-    font-family: Roboto-Regular;  
-    color: #4A4848;  
+
+.acercaDeMi-info {
+  color: #4A4848;
+  font-family: Roboto-Regular;
+  padding: 30px;
+  font-size: 14px;
+  text-align: justify;
+  width: 950px;
+  margin-top: 40px;
 }
-.filtroProducto{
-    font-family: Roboto-Regular;
-    color: #4A4848;
-    padding: 2px;
-    border-radius: 5px;
-    background-color: aliceblue;
+
+.accordion {
+  font-family: Roboto-Regular;
+  margin-top: 40px;
 }
-.coleccionescards{
-    font-family: Roboto-Regular;
+
+.accordion-body {
+  background-color: aliceblue;
+  text-align: justify;
 }
-.coleccionescards a{
-    list-style-type: none;
-    color: #4A4848;
+
+.breadcrumb {
+  color: #4A4848;
+  text-decoration: none;
 }
-.colecciones{
-    margin-top: 100px;
+
+.pagination {
+  font-family: Roboto-Regular;
 }
-.formulario{
-    color: #4A4848;
-    font-family: Roboto-Regular;
-    display: flex;
-    flex-direction: column;
-    font-size: 12px;
-    border-color: #4A4848;
+
+.navFiltro a {
+  font-family: Roboto-Regular;
+  color: #4A4848;
 }
-.form-group{
-    padding: 25px;
+
+.filtroProducto {
+  font-family: Roboto-Regular;
+  color: #4A4848;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: aliceblue;
 }
-.form-group2{
-    padding: 25px;
+
+.coleccionescards {
+  font-family: Roboto-Regular;
 }
-.form-group3{
-    padding: 25px;
+
+.coleccionescards a {
+  list-style-type: none;
+  color: #4A4848;
 }
-.form-group4{
-    padding: 25px;
+
+.colecciones {
+  margin-top: 100px;
 }
-.form-input{
-    width: 360px;
-    height: 45px;
-    border-radius: 10px;
-    padding: 5px;
-    border-color: #4A4848;
-    border: solid;
-    background-color: aliceblue;
+
+.formulario {
+  color: #4A4848;
+  font-family: Roboto-Regular;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  border-color: #4A4848;
 }
-.form-textarea{
-    width: 360px;
-    border-radius: 10px;
-    padding: 5px;
-    border-color: #4A4848;
-    border: solid;
-    background-color: aliceblue;  
+
+.form-group {
+  padding: 25px;
 }
-.form-buttongroup{
-    padding: 25px;
+
+.form-group2 {
+  padding: 25px;
 }
-.form-button{
-    width: 360px;
-    height: 45px;
-    border-radius: 25px;
-    background-color: #E0B2DA;
-    font-weight: bold;
-    font-size: 16px;   
+
+.form-group3 {
+  padding: 25px;
 }
-.textContacto{
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 40px;
+
+.form-group4 {
+  padding: 25px;
 }
-.logoWhatsappContacto{
-    width: 56px;
+
+.form-input {
+  width: 360px;
+  height: 45px;
+  border-radius: 10px;
+  padding: 5px;
+  border-color: #4A4848;
+  border: solid;
+  background-color: aliceblue;
 }
-.numeroTelefono{
-    text-decoration: none;
-    color: #4A4848;
-    font-size: 20px;;
+
+.form-textarea {
+  width: 360px;
+  border-radius: 10px;
+  padding: 5px;
+  border-color: #4A4848;
+  border: solid;
+  background-color: aliceblue;
 }
-.contacto{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 165px;
+
+.form-buttongroup {
+  padding: 25px;
+}
+
+.form-button {
+  width: 360px;
+  height: 45px;
+  border-radius: 25px;
+  background-color: #E0B2DA;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.textContacto {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.logoWhatsappContacto {
+  width: 56px;
+}
+
+.numeroTelefono {
+  text-decoration: none;
+  color: #4A4848;
+  font-size: 20px;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 165px;
 }
