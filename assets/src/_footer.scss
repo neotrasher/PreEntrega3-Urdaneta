@@ -1,5 +1,5 @@
 .footer-datos{
-    background-color: aliceblue;
+    background-color: $fondo-claro;
     font-family: Roboto-Regular;
     padding: 50px;
 
@@ -7,7 +7,7 @@
 .footer-legal{
     display: flex;
     flex-direction: column;
-    background-color:#BD95B7;
+    background-color:$rosado-oscuro;
     font-family: Roboto-Regular;
     text-align: end;
     padding: 5px;
@@ -21,7 +21,7 @@
 .footer-menu > ul > li > a{
     text-decoration: none;
     list-style-type: none;
-    color: #4A4848;
+    color: $colorletra;
 
 }
 .footer-menu > ul > li {
@@ -35,6 +35,6 @@
 .footer-contacto > a{
     text-decoration: none;
     list-style-type: none;
-    color: #4A4848;
+    color: $colorletra;
     padding-left: 10px;
 }
