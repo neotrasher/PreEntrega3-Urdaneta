@@ -1,33 +1,43 @@
 nav{
     font-family: roboto-regular;  
 }
-.cards{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 5px;
+.navbarInfo{
+    background-color: $rosadooscuro;
+    padding: 8px;
+    font-size: small;
+    .logosNavbar{
+        width: 24px;
+    }
 }
-.navbarItem li{
-    border-radius: 5px;
-    
+.navbar{
+    background-color: $rosadoclaro;
+    font-weight: bold;
+    .maguslogo{
+        width: 100px;
+    }
+    .dropdown-menu{
+        background-color: $fondoclaro;
+    }
 }
-.navbarItem > ul{
-    height: 100px;
-    padding: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    font-family: Roboto-Regular;
-    list-style-type: none;
-
-}
-.navbarItem > ul > li > a{
-    text-decoration:underline;
-    color: $colorletra;
-    font-size: 19px;
-    padding: 20px;
-    font-weight:lighter;
+.navbarItem{
+    > li{
+        border-radius: 5px;
+    }
+    > ul{
+        height: 100px;
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        font-family: Roboto-Regular;
+        list-style-type: none;
+    }
+    > ul > li > a{
+        text-decoration:underline;
+        color: $colorletra;
+        font-size: 19px;
+        padding: 20px;
+        font-weight:lighter;
+    }
 }

@@ -1,14 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-@font-face {
-    font-family: roboto-regular;
-    src: url(../fonts/Roboto/Roboto-Regular.ttf);
-}
+@import "reset";
+@import "fonts";
 @import "variables";
 @import "navegador";
+@import "cards";
 @import "footer";
 @import "acercademi";
 @import "navproductos";

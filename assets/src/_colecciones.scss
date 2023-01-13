@@ -1,10 +1,11 @@
 .coleccionescards{
     font-family: Roboto-Regular;
-}
-.coleccionescards a{
-    list-style-type: none;
-    color: $colorletra;
-}
-.colecciones{
-    margin-top: 100px;
+    min-height: calc(100vh - 300px);
+    a{
+        list-style-type: none;
+        color: $colorletra;
+    }
+    .colecciones{
+        margin-top: 100px;
+    }
 }
