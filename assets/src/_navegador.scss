@@ -6,7 +6,7 @@ nav{
     padding: 8px;
     font-size: small;
     .logosNavbar{
-        width: 24px;
+        @extend %logostyle;
     }
 }
 .navbar{

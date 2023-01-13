@@ -5,7 +5,7 @@
         font-family: Roboto-Regular;
         padding: 50px;
         .rrssIcons-footer{
-            width: 24px;
+            @extend %logostyle;
         }
         .footer-menu{
             > ul{
@@ -23,7 +23,7 @@
         }
         .footer-contacto{
             .logoWhatsappFooter{
-                width: 24px;
+                @extend %logostyle 
             }
             > a{
                 text-decoration: none;

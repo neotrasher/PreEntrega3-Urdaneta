@@ -8,6 +8,19 @@
   font-family: roboto-regular;
   src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+.footer .footer-datos .footer-contacto .logoWhatsappFooter, .footer .footer-datos .rrssIcons-footer, .navbarInfo .logosNavbar {
+  width: 24px;
+}
+
 nav {
   font-family: roboto-regular;
 }
@@ -17,10 +30,6 @@ nav {
   padding: 8px;
   font-size: small;
 }
-.navbarInfo .logosNavbar {
-  width: 24px;
-}
-
 .navbar {
   background-color: #E0B2DA;
   font-weight: bold;
@@ -53,14 +62,6 @@ nav {
   font-weight: lighter;
 }
 
-.cards {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 5px;
-}
 .cards .card-title {
   font-weight: bold;
 }
@@ -73,9 +74,6 @@ nav {
   font-family: Roboto-Regular;
   padding: 50px;
 }
-.footer .footer-datos .rrssIcons-footer {
-  width: 24px;
-}
 .footer .footer-datos .footer-menu > ul {
   padding-left: 5px;
 }
@@ -87,9 +85,6 @@ nav {
   text-decoration: none;
   list-style-type: none;
   color: #4A4848;
-}
-.footer .footer-datos .footer-contacto .logoWhatsappFooter {
-  width: 24px;
 }
 .footer .footer-datos .footer-contacto > a {
   text-decoration: none;
@@ -238,4 +233,39 @@ nav {
   background-color: #E0B2DA;
   font-weight: bold;
   font-size: 16px;
+}
+
+.carousel .btn {
+  font-weight: bold;
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  z-index: 1;
+  background-color: #4A4848;
+  color: aliceblue;
+}
+.carousel .btn:hover {
+  background-color: aliceblue;
+  color: #4A4848;
+  font-weight: bold;
+  border: solid;
+  border-width: 0.5px;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel .btn {
+    display: none;
+  }
+}
+.cards .btn {
+  font-weight: bold;
+  background-color: #4A4848;
+  color: aliceblue;
+}
+.cards .btn:hover {
+  background-color: aliceblue;
+  color: #4A4848;
+  font-weight: bold;
+  border: solid;
+  border-width: 0.5px;
 }
