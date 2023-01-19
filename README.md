@@ -2,7 +2,7 @@ PreEntrega3-Urdaneta
 Este es el repositorio de la entrega de proyecto final del curso de Desarrollo web en coderhouse.
 
 Descripción
-La página web presenta una plataforma de e-commerce para la venta de productos relacionados con la tecnología, enfocada en la venta de computadores y accesorios. La página cuenta con una interfaz de usuario amigable y fácil de navegar, con un diseño moderno y atractivo.
+La página web presenta una plataforma de e-commerce para la venta de productos relacionados con la tecnología, enfocada en la venta de joyeria artesanal y accesorios. La página cuenta con una interfaz de usuario amigable y fácil de navegar, con un diseño moderno y atractivo.
 
 Funcionalidades
 Catálogo de productos: La página cuenta con un catálogo de productos que incluye imágenes, descripciones y precios.
