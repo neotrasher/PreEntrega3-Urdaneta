@@ -1,5 +1,5 @@
 PreEntrega3-Urdaneta
-Este es el repositorio de la pre entrega 3 del curso de Diseño de Interfaz de Usuario de la carrera de Ingeniería en Sistemas de la Universidad de Los Andes.
+Este es el repositorio de la entrega de proyecto final del curso de Desarrollo web en coderhouse.
 
 Descripción
 La página web presenta una plataforma de e-commerce para la venta de productos relacionados con la tecnología, enfocada en la venta de computadores y accesorios. La página cuenta con una interfaz de usuario amigable y fácil de navegar, con un diseño moderno y atractivo.
