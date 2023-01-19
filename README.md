@@ -16,7 +16,7 @@ Página de detalles del producto: Cada producto cuenta con una página de detall
 Búsqueda de productos: La página cuenta con una barra de búsqueda para que los usuarios puedan encontrar fácilmente los productos que están buscando.
 
 Tecnologías utilizadas
-HTML, CSS y JavaScript para la estructura, diseño y funcionalidad de la página.
+HTML, CSS y SCSS para la estructura, diseño y funcionalidad de la página.
 Framework Bootstrap para el diseño responsive.
 
 Instrucciones de uso
