@@ -3,7 +3,7 @@
         font-weight: bold;
         position: absolute;
         right: 30px;
-        bottom: 20px;
+        bottom: 8px;
         z-index: 1;
         @include btn($colorletra,$fondoclaro);        
         &:hover{
@@ -15,7 +15,7 @@
         }
     }
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 648px) {
     .carousel{
         .btn{
             display: none;

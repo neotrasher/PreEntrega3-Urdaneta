@@ -12,6 +12,7 @@
         box-shadow: 0px 0px 10px #ccc;
         transition: all 0.2s ease-in-out;
         margin-bottom: 80px;
+        background-color: $rosadoclaro;
     }
     .video-card:hover {
         transform: scale(1.05);
@@ -19,7 +20,7 @@
       }
     video {
         width: 100%;
-        border: none;
+        border: none;        
     }
     h3 {
         text-align: center;

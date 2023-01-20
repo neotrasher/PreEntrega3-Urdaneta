@@ -89,19 +89,19 @@
             </section>
             <section class="video-container">
                 <div class="video-card">
-                    <video id='video' class="videoColeccion1" data-aos="flip-left" src="../assets/video/princesas.mp4" loop muted autoplay></video>
+                    <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" id='video' class="videoColeccion1" data-aos="flip-down" src="../assets/video/princesas.mp4" loop muted></video>
                     <div class="coleccion">
                         <a href=""><h3>Pequeñas Princesas</h3></a>
                     </div>
                 </div>
                 <div class="video-card">
-                    <video id='video2' class="videoColeccion1" data-aos="flip-right" src="../assets/video/geometria.mp4" loop muted autoplay></video>
+                    <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" id='video2' class="videoColeccion1" data-aos="flip-down" src="../assets/video/geometria.mp4" loop muted></video>
                     <div class="coleccion1">
                         <a href=""><h3>Geometria Vibrante</h3></a>
                     </div>
                 </div>
                 <div class="video-card">
-                    <video id='video3' class="videoColeccion1" data-aos="flip-right" src="../assets/video/aretes.mp4" loop muted autoplay></video>
+                    <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" id='video3' class="videoColeccion1" data-aos="flip-down" src="../assets/video/aretes.mp4" loop muted></video>
                     <div class="coleccion1">
                         <a href=""><h3>Boho-chic</h3></a>
                     </div>
@@ -145,17 +145,17 @@
     <script>
         var vid = document.getElementById('video1');
         vid.load();
-        vid.playbackRate = 0.75;
+        vid.playbackRate = 0.8;
     </script>
     <script>
         var vid = document.getElementById('video2');
         vid.load();
-        vid.playbackRate = 0.75;
+        vid.playbackRate = 0.8;
     </script>
     <script>
         var vid = document.getElementById('video3');
         vid.load();
-        vid.playbackRate = 0.75;
+        vid.playbackRate = 0.8;
     </script>
 </body>
 </html>
