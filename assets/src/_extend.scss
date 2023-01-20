@@ -5,6 +5,13 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 5px;
+    .card-img-top{
+        &:hover{
+            box-shadow: 0px 0px 10px rgb(24, 3, 3);
+            transform: scale(1.35);
+            transition: 0.4s;
+        }
+    }    
 }
 %logostyle{
     width: 24px;

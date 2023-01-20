@@ -16,6 +16,11 @@
   justify-content: space-evenly;
   padding: 5px;
 }
+.cards .card-img-top:hover {
+  box-shadow: 0px 0px 10px rgb(24, 3, 3);
+  transform: scale(1.35);
+  transition: 0.4s;
+}
 
 .footer .footer-datos .footer-contacto .logoWhatsappFooter, .footer .footer-datos .rrssIcons-footer, .navbarInfo .logosNavbar {
   width: 24px;
@@ -161,16 +166,34 @@ nav {
   background-color: aliceblue;
 }
 
-.coleccionescards {
-  font-family: Roboto-Regular;
-  min-height: calc(100vh - 300px);
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.coleccionescards a {
-  list-style-type: none;
+.video-container a {
+  text-decoration: none;
   color: #4A4848;
 }
-.coleccionescards .colecciones {
-  margin-top: 100px;
+.video-container .video-card {
+  width: 82%;
+  margin: 10px;
+  box-shadow: 0px 0px 10px #ccc;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 80px;
+}
+.video-container .video-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px #4A4848;
+}
+.video-container video {
+  width: 100%;
+  border: none;
+}
+.video-container h3 {
+  text-align: center;
+  margin: 25px;
+  text-decoration: none;
 }
 
 .contacto {

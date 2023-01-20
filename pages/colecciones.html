@@ -87,17 +87,23 @@
                     </select>
                 </div>            
             </section>
-            <section class="colecciones d-flex flex-row justify-content-around flex-wrap">
-                <div class="colores d-flex flex-column align-items-center">
-                    <video class="videoColeccion shadow-sm p-3 mb-5 bg-body rounded" data-aos="flip-left" height="356" src="../assets/video/video_2022-11-28_23-09-01.mp4" loop muted autoplay></video>
-                    <div class="coleccion p-4 mb-5">
-                        <a href=""><h3>Colores del Mar</h3></a>
+            <section class="video-container">
+                <div class="video-card">
+                    <video id='video' class="videoColeccion1" data-aos="flip-left" src="../assets/video/princesas.mp4" loop muted autoplay></video>
+                    <div class="coleccion">
+                        <a href=""><h3>Pequeñas Princesas</h3></a>
                     </div>
                 </div>
-                <div class="geometria d-flex flex-column align-items-center">
-                    <video class="videoColeccion1 shadow-sm p-3 mb-5 bg-body rounded" data-aos="flip-right" height="356" src="../assets/video/video_2022-11-28_23-09-12.mp4" loop muted autoplay></video>
-                    <div class="coleccion1 p-4 mb-5">
+                <div class="video-card">
+                    <video id='video2' class="videoColeccion1" data-aos="flip-right" src="../assets/video/geometria.mp4" loop muted autoplay></video>
+                    <div class="coleccion1">
                         <a href=""><h3>Geometria Vibrante</h3></a>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <video id='video3' class="videoColeccion1" data-aos="flip-right" src="../assets/video/aretes.mp4" loop muted autoplay></video>
+                    <div class="coleccion1">
+                        <a href=""><h3>Boho-chic</h3></a>
                     </div>
                 </div>
             </section>
@@ -135,6 +141,21 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    <script>
+        var vid = document.getElementById('video1');
+        vid.load();
+        vid.playbackRate = 0.75;
+    </script>
+    <script>
+        var vid = document.getElementById('video2');
+        vid.load();
+        vid.playbackRate = 0.75;
+    </script>
+    <script>
+        var vid = document.getElementById('video3');
+        vid.load();
+        vid.playbackRate = 0.75;
     </script>
 </body>
 </html>

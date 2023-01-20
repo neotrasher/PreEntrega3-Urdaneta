@@ -74,21 +74,24 @@
                 <img class="logoWhatsappContacto" src="../assets/img/whatsapp.png" alt="whatsapp">
                 <a class="numeroTelefono" href="https://wa.me/573154299368" target="_blank">573154299368</a>
             </div>
-            <form class="formulario" action="" method="get" enctype="application/x-www-form-urlencoded">
+            <div>
+                <iframe src='https://widgets.sociablekit.com/instagram-reels/iframe/111914' frameborder='0' width='100%' height='1000'></iframe>
+            </div>
+            <form class="formulario" action="https://formsubmit.co/a19a87eb66e7f9abdf841de9aae687a6" method="POST" enctype="application/x-www-form-urlencoded">
                 <div class="form-group">
                     <label class=form-label for=name>Nombre</label>
                     <br>
-                    <input class="form-input" type="text" id="name" name="Nombre" placeholder="Ingrese su nombre y apellido">
+                    <input class="form-input" type="text" id="name" name="Nombre" placeholder="Ingrese su nombre y apellido" required>
                 </div>
                 <div class="form-group">
-                    <label class=form-label for=email>Correo Electrónico</label>
+                    <label class=form-label for=mail>Correo Electrónico</label>
                     <br>
-                    <input class="form-input" type="text" id="email" name="email" placeholder="Ingrese su correo electronico">            
+                    <input class="form-input" type="text" id="mail" name="mail" placeholder="Ingrese su correo electronico" required>            
                 </div>
                 <div class="form-group">
                     <label class=form-label for=tel>Teléfono</label>
                     <br>
-                    <input class="form-input" type="number" id="tel" name="tel" placeholder="Ingrese su numero telefonico">            
+                    <input class="form-input" type="number" id="tel" name="tel" placeholder="Ingrese su numero telefonico" required>            
                 </div>
                 <div class="form-group">
                     <label class="form-label" for="mensaje">Mensaje</label>
@@ -99,8 +102,7 @@
                     <input class="form-button" type="submit" value="Enviar">
                 </div>
             </form>
-        </section>
-     
+        </section>     
     </main>
     <footer class="footer">
         <div class="footer-datos d-flex row">
