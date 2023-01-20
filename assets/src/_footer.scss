@@ -1,11 +1,9 @@
 .footer{
-    margin: 0;
-    .footer-datos{
+        .footer-datos{
         background-color: $fondoclaro;
         font-family: Roboto-Regular;
         padding: 40px;
-        width: 100%;
-        border: 0;
+        width: 150%;
         .rrssIcons-footer{
             @extend %logostyle;
         }
@@ -42,7 +40,6 @@
         font-family: Roboto-Regular;
         text-align: end;
         padding: 5px;
-        margin: 0px;
         h5{
             font-size: 13px;
         }
