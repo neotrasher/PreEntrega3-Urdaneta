@@ -85,7 +85,7 @@ nav {
   background-color: aliceblue;
   font-family: Roboto-Regular;
   padding: 40px;
-  width: 100%;
+  margin: 0;
 }
 .footer .footer-datos .footer-menu > ul {
   padding-left: 5px;
@@ -112,6 +112,7 @@ nav {
   font-family: Roboto-Regular;
   text-align: end;
   padding: 5px;
+  width: 100%;
 }
 .footer .footer-legal h5 {
   font-size: 13px;
@@ -212,7 +213,6 @@ nav {
   align-items: center;
   margin-bottom: 100px;
   padding: 1px;
-  overflow-x: hidden;
 }
 .contacto .textContacto {
   font-size: 28px;
